@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="js-off">
+<!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/wmui-style-guide.min.css">
+	<title>Jonathan T. Morgan</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<script src="js/vendor/ie/respond-1.4.2.min.js"></script>
+	<![endif]-->
+    <link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Lato_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="js/fonts-loader.js" async></script>
+</head>
+<body class="wrlp page--home">
+	<header id="header" class="header" role="banner">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h1 class="site__title"><a href="./">Jtmorgan.net</a></h1>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main" role="navigation">
+					<ol>
+						<li class="nav__item is-on"><a href="index.html">Home</a></li>
+						<li class="nav__item"><a href="about.html">About me</a></li>
+						<li class="nav__item"><a href="publications.html">Publications</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content" role="main">
+					<h1 class="page__title">Redcedar</h1>
+					<p class="page__tagline">Earnest PNW Folk Rock</p>
+<img src="img/patterns/headshot.jpg" title="image by Dana Bublitz" alt="jonathan morgan" />
+					<p>Redcedar is Jonathan Morgan and Jonathan Shue, lifelong friends and devotees of the twentieth century singer-songwriter era.</p>
+					<p>With sparse arrangements, eclectic instruments, vocal harmonies, and lyrics borne from both classical literature and classic soul, Redcedar's music invites you in like a campfire underneath a harvest moon.</p>
+
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list">
+				<li><a href="acknowledgments.html">Acknowledgments</a>
+				<li><a href="https://github.com/jtmorgan/jtmorgan.net">Source</a></li>
+			</ul>
+			<p>All text &#169; Jonathan T. Morgan 2020</p>
+		</div>
+	</footer>
+</body>
+</html>
